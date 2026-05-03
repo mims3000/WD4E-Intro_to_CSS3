@@ -9,6 +9,12 @@ header{
 
 nav{
   background-color: rgb(178, 178, 215);
+  display: inline-block;
+  width: 80%;
+}
+
+nav img{
+  width: 10%;
 }
 
 main{
@@ -20,10 +26,11 @@ footer{
   background-color: azure;
 }
 
-li{
+/*li{
   display: inline-flex;
   width: 300px
 }
+*/
 
 h1{
   text-align: left;
@@ -33,4 +40,22 @@ h1{
 
 p{
   line-height: 2.1;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.grid img{
+  width: 100%;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: left;
 }
