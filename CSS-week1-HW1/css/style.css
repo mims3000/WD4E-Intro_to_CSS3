@@ -9,7 +9,7 @@ header{
 
 nav{
   background-color: rgb(178, 178, 215);
-  display: inline-block;
+  display: block;
   width: 80%;
 }
 
